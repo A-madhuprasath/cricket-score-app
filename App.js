@@ -5,7 +5,7 @@ import style from './assets/globalCss'
 export default function App() {
     return (
         <View style={styles.container}>
-            <Text style={style.text}>Cricket Scorer</Text>
+            <Text style={style.text}>Cricket Scorer App</Text>
             <StatusBar style="auto"/>
         </View>
     );
