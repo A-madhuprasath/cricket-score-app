@@ -6,6 +6,7 @@ export default function App() {
     return (
         <View style={styles.container}>
             <Text style={style.text}>Cricket Scorer App</Text>
+            <Text style={style.text}>Start match</Text>
             <StatusBar style="auto"/>
         </View>
     );
