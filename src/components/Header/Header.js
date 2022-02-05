@@ -3,7 +3,7 @@ import {View, Text, StyleSheet} from "react-native";
 import {MaterialIcons} from "@expo/vector-icons";
 
 
-const Header = () => {
+const Header = ({navigation}) => {
     return (
         <View style={styles.header}>
             <View style={styles.textContainer}>
@@ -12,7 +12,8 @@ const Header = () => {
             </View>
             <View style={{flexDirection: 'row'}}>
                 <MaterialIcons style={{paddingRight: 10, marginTop: 30}} name='settings' size={30} color={'white'}/>
-                <MaterialIcons style={{paddingRight: 10, marginTop: 30}} name='notifications' size={30} color={'white'}/>
+                <MaterialIcons style={{paddingRight: 10, marginTop: 30}} name='notifications' size={30}
+                               color={'white'}/>
             </View>
         </View>
     )
