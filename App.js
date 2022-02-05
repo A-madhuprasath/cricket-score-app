@@ -1,12 +1,10 @@
-import {StatusBar} from 'expo-status-bar';
 import {StyleSheet, Text, View} from 'react-native';
-import style from './assets/globalCss'
+import Header from "./components/header/header";
 
 export default function App() {
     return (
-        <View style={styles.container}>
-            <Text style={style.text}>Cricket Scorer App</Text>
-            <StatusBar style="auto"/>
+        <View>
+            <Header/>
         </View>
     );
 }
