@@ -1,5 +1,6 @@
 import React from "react";
 import {View, Text, StyleSheet} from "react-native";
+import {MaterialIcons} from "@expo/vector-icons";
 
 
 const Header = () => {
@@ -10,8 +11,8 @@ const Header = () => {
                 <Text style={styles.subTitleText}>scorer</Text>
             </View>
             <View style={{flexDirection: 'row'}}>
-                <Text style={{paddingLeft: 10, paddingTop: 30}}>Icon 1</Text>
-                <Text style={{paddingLeft: 10, paddingTop: 30}}>Icon 2</Text>
+                <MaterialIcons style={{paddingRight: 10, marginTop: 30}} name='settings' size={30} color={'white'}/>
+                <MaterialIcons style={{paddingRight: 10, marginTop: 30}} name='notifications' size={30} color={'white'}/>
             </View>
         </View>
     )

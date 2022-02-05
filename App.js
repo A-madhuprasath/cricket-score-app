@@ -1,11 +1,14 @@
 import {StyleSheet, Text, View} from 'react-native';
-import Header from "./components/header/header";
+import Header from "./src/components/header/header";
 import AppNavigator from './src/navigation/AppNavigator';
 
 export default function App() {
     return (
         <View>
-            <Header/>
-             <AppNavigator/>
+            <View>
+                <Header/>
+            </View>
+            <AppNavigator/>
         </View>
-);}
+    );
+}
